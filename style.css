@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* color: white; */
+
+    /* box-shadow: inset 0 0 0 1px red; */
+}
+
+:root{
+    --main-color : #FEB7A7;
+    --secondary-color : #98FFFF;
+}
+
+body{
+    background: url(images/wwwatercolor.webp);
+    background-size: cover;
+    font-family: 'Viga', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+main{
+    width: 400px;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    height: 100vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(210, 178, 178, 0.5);
+    height: 500px;
+    /* width: 90vw; */
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+
+    /* margin: 0 auto; */
+}
+
+.welcome, 
+.auth{
+    margin-bottom: 50px;
+    /* background-color: red; */
+}
+
+.username{
+    margin: 20px;
+}
+
+.mail{
+    margin: 30px;
+}
+
+.input{
+    width: 80%;
+    height: 40px;
+    padding: 5px;
+    border: #FEB7A7 1px solid;
+    border-radius: 5px;
+}
+
+.sign-in,
+.username,
+.mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    /* background-color: red; */
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-in a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--secondary-color);
+    width: 80%;
+    height: 40px;
+    color: var(--main-color);
+    border-radius: 5px;
+}
